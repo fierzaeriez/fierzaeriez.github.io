@@ -1,1 +1,2 @@
-# FX-Super-Mini-Shell-Backdoor
+# FX-Super Mini Shell Backdoor
+Author : FierzaXploit/Mr.MF33<br>
