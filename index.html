@@ -18,29 +18,29 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap CSS & icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
         body {
-            overflow-x: hidden;
+            overflow-x: hidden !important;
             background-attachment: fixed;
             background-color: grey;
             background-blend-mode: multiply;
             background-image: url('assets/img/29262.jpg');
             background-repeat: no-repeat;
         }
-
+        
         .logo {
             width: 150px;
             height: 150px;
         }
-
+        
         .card-body {
             width: 100%;
         }
-
-@media (min-width: 992px) {
+        
+        @media (min-width: 992px) {
             body {
                 overflow-x: hidden;
                 background-attachment: fixed;
@@ -55,6 +55,9 @@
             }
             .card-body {
                 width: 50%;
+            }
+            .bahasa {
+                margin-left: 86%;
             }
         }
     </style>
@@ -76,7 +79,7 @@
 </head>
 
 <body class="animate__animated animate__fadeIn">
-    <br>
+    <div id="google_translate_element2" class="bahasa"></div>
     <!-- content -->
     <div class="container-fulid">
         <center>
@@ -135,7 +138,7 @@
     <!-- akhir content -->
     <br>
     <center>
-        <a class="visitor"href="https://info.flagcounter.com/vJDv"><img src="https://s01.flagcounter.com/count/vJDv/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_6/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+        <a class="visitor" href="https://info.flagcounter.com/vJDv"><img src="https://s01.flagcounter.com/count/vJDv/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_6/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
     </center>
     <br>
     <!-- footer -->
@@ -147,6 +150,49 @@
 
     <!-- akhir footer -->
     <!-- Optional JavaScript; choose one of the two! -->
+    <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit2() {
+            new google.translate.TranslateElement({
+                    pageLanguage: 'id',
+                    autoDisplay: true
+                },
+
+                'google_translate_element2');
+        }
+
+        function GTranslateFireEvent(element, event) {
+            try {
+                if (document.createEventObject) {
+                    var evt = document.createEventObject();
+                    element.fireEvent('on' + event, evt)
+                } else {
+                    var evt = document.createEvent('HTMLEvents');
+                    evt.initEvent(event, true, true);
+                    element.dispatchEvent(evt)
+                }
+            } catch (e) {}
+        }
+
+        function doGTranslate(lang_pair) {
+            if (lang_pair.value) lang_pair = lang_pair.value;
+            if (lang_pair == '') return;
+            var lang = lang_pair.split('|')[1];
+            var teCombo;
+            var sel = document.getElementsByTagName('select');
+            for (var i = 0; i < sel.length; i++)
+                if (sel[i].className == 'goog-te-combo') teCombo = sel[i];
+            if (document.getElementById('google_translate_element2') == null || document.getElementById('google_translate_element2').innerHTML.length == 0 || teCombo.length == 0 || teCombo.innerHTML.length == 0) {
+                setTimeout(function() {
+                    doGTranslate(lang_pair)
+                }, 500)
+            } else {
+                teCombo.value = lang;
+                GTranslateFireEvent(teCombo, 'change');
+                GTranslateFireEvent(teCombo, 'change')
+            }
+        }
+    </script>
     <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
     <script>
         new TypeIt("#myElement", {
