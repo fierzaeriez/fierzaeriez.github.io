@@ -1,76 +1,36 @@
-.container{
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-  background: #0079d7;
+.lds-facebook {
+  display: inline-block;
   position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  width: 80px;
+  height: 80px;
 }
-.wrapper{
+.lds-facebook div {
+  display: inline-block;
   position: absolute;
-  top: -35px;
-  transform: scale(1.5);
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
 }
-.loader{
-  height: 25px;
- width: 1px;
- position: absolute;
- animation: rotate 3.5s linear infinite;
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
 }
-.loader .dot{
-  top: 30px;
- height: 7px;
- width: 7px;
- background: #fff;
- border-radius: 50%;
- position: relative;
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
 }
-.text{
-  position: absolute;
-  bottom: -85px;
-  font-size: 25px;
-  font-weight: 400;
-  font-family: 'Poppins',sans-serif;
-  color: #fff;
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
 }
-@keyframes rotate {
-  30%{
-    transform: rotate(220deg);
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
   }
-  40%{
-  transform: rotate(450deg);
-    opacity: 1;
- }
- 75%{
-  transform: rotate(720deg);
-  opacity: 1;
- }
- 76%{
-  opacity: 0;
- }
- 100%{
-  opacity: 0;
-  transform: rotate(0deg);
- }
-}
-.loader:nth-child(1){
-  animation-delay: 0.15s;
-}
-.loader:nth-child(2){
-  animation-delay: 0.3s;
-}
-.loader:nth-child(3){
-  animation-delay: 0.45s;
-}
-.loader:nth-child(4){
-  animation-delay: 0.6s;
-}
-.loader:nth-child(5){
-  animation-delay: 0.75s;
-}
-.loader:nth-child(6){
-  animation-delay: 0.9s;
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
 }
