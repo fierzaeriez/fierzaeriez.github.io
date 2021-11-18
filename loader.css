@@ -1,3 +1,14 @@
+.container{
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #0079d7;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .wrapper{
   position: absolute;
   top: -35px;
