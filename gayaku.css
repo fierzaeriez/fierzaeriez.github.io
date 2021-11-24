@@ -7,7 +7,6 @@ body {
     }
     .tombol-home{
         margin-top : 15px !important;
-        width: 15% !important;
     }
     .shell {
         width: 100%;
@@ -148,7 +147,6 @@ body {
         }
         .tombol-home{
             margin-top : 15px !important;
-            width: 15% !important;
         }
         .shell {
             width: 100%;
@@ -229,7 +227,6 @@ body {
         }
         .tombol-home{
             margin-top : 15px !important;
-            width: 10% !important;
         }
         .shell{
             width: 100%;
@@ -298,7 +295,6 @@ body {
         }
          .tombol-home{
             margin-top : 15px !important;
-            width: 10% !important;
         }
         .home,.linknya{
             color: white !important;
