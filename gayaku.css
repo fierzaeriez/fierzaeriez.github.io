@@ -1,9 +1,12 @@
-body {
+    body {
         width: 100%;
         text-decoration: none;
         overflow-x: hidden !important;
-        color: black!important;
+        color: black !important;
         width: 100%;
+    }
+    .tombol-home{
+        width: 15%;
     }
     .shell {
         width: 100%;
