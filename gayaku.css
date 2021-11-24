@@ -6,7 +6,7 @@
         width: 100%;
     }
     .tombol-home{
-        width: 15%;
+        width: 15% !important;
     }
     .shell {
         width: 100%;
