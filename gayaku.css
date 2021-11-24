@@ -7,7 +7,7 @@ body {
     }
     .tombol-home{
         margin-top : 15px !important;
-        width: 10% !important;
+        width: 25% !important;
     }
     .shell {
         width: 100%;
@@ -146,6 +146,10 @@ body {
             color: #fff;
             width: 100%;
         }
+        .tombol-home{
+            margin-top : 15px !important;
+            width: 25% !important;
+        }
         .shell {
             width: 100%;
         }
@@ -223,6 +227,10 @@ body {
             text-decoration: none;
             width: 100%;
         }
+        .tombol-home{
+            margin-top : 15px !important;
+            width: 10% !important;
+        }
         .shell{
             width: 100%;
         }
@@ -287,6 +295,10 @@ body {
         .bi-chevron-up{font-size: 20px;line-height: 25px;color:black;}
         .home{
             margin-top: -15px;
+        }
+         .tombol-home{
+            margin-top : 15px !important;
+            width: 10% !important;
         }
         .home,.linknya{
             color: white !important;
