@@ -7,7 +7,7 @@ body {
     }
     .tombol-home{
         margin-top : 15px !important;
-        width: 50% !important;
+        width: 15% !important;
     }
     .shell {
         width: 100%;
@@ -148,7 +148,7 @@ body {
         }
         .tombol-home{
             margin-top : 15px !important;
-            width: 50% !important;
+            width: 15% !important;
         }
         .shell {
             width: 100%;
