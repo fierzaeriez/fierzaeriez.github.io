@@ -6,7 +6,11 @@
         
         levelbatrei.forEach(item => {
             if(battery.level * 100 == item){
-                alert("silahkan charge batrei anda "+batrei);
+                Swal.fire({
+                  icon: 'error',
+                  title: 'Oops...',
+                  text: 'Battery Anda Lemah Silahkan Charge '+batrei,
+                })
                 document.getElementById("batre").innerHTML=batrei;
             }
             else{
