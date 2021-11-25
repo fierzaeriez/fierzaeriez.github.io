@@ -6,10 +6,11 @@
         
         levelbatrei.forEach(item => {
             if(battery.level * 100 == item){
-                alert("silahkan charge batrei anda"+batrei);
+                alert("silahkan charge batrei anda "+batrei);
+                document.getElementById("batre").innerHTML=batrei;
             }
             else{
-        document.getElementById("batre").innerHTML="<i class='bi bi-battery-full'>"+batrei+"</i>";
+        document.getElementById("batre").innerHTML=batrei;
             }
         });
     });
