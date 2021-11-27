@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="https://fierzaeriez.github.io/gayaku.css">
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script type="text/javascript" src="https://fierzaeriez.github.io/battery.js"></script>
+    <link rel="stylesheet" href="https://fierzaeriez.github.io/battery.css">
