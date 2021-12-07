@@ -1,4 +1,4 @@
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -6,12 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
     <link class="img-thumbnail" rel="shortcut icon" href="https://i.ibb.co/G2FQCks/fx-new-logo-removebg-preview.png" />
-    <title>FierzaXploit</title>
-<link rel="stylesheet" href="https://fierzaeriez.github.io/gayaku.css">
-
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-    <script type="text/javascript" src="https://fierzaeriez.github.io/battery.js"></script>
+    
+    <link rel="stylesheet" href="https://fierzaeriez.github.io/gayaku.css">
     <link rel="stylesheet" href="https://fierzaeriez.github.io/battery.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
