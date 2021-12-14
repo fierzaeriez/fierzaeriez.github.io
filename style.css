@@ -3,6 +3,10 @@ body {
     font-family: 'Shippori Mincho', serif;
 }
 
+.table{
+    margin: 0 auto !important;
+}
+
 .navbar {
     background-color: darkred;
 }
