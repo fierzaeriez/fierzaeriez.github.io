@@ -1,0 +1,19 @@
+<?php 
+  function PortScanner($target){
+        $port = [20,21,22,23,25,42,53,67,80,81,110,143,443,587,1337,2525,3306];
+
+        for($i = 1; $i < count($port); $i++){
+            $ConnPort = @fsockopen($target, $port[$i], $errno, $errstr, 1);
+            
+            if(is_resource($ConnPort)){
+                echo $target.": ".$port[$i]."( ".getservbyport($port[$i], 'tcp')." ) <font color='green'>Port Is Open</font> <br>";
+            }
+            else{
+                echo $target.": ".$port[$i]."( ".getservbyport($port[$i], 'tcp')." ) <font color='red'>Port Is Close</font> <br>";
+            }
+        }
+        return $ConnPort;
+    }
+
+    PortScanner('google.com');
+?>
