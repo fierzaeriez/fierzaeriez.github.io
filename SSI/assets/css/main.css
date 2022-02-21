@@ -1,0 +1,43 @@
+html{scroll-behavior: smooth;}
+body{margin:0; padding:0; overflow-x: hidden;}
+.bg-darkblue{
+    background-color: #0f3c4c;
+    color: white !important;
+}
+.navbar-brand,.nav-link{
+    color: white;
+}
+.jumbotron{
+    background-color: #0f3c4c;
+    color: white !important;
+    margin-bottom: -5px !important;
+}
+
+.logo{
+    width: 140px;
+    height : 140px;
+}
+
+.menu{
+    margin: 0 auto !important;
+}
+.nav-link:hover{
+    color: gray;
+}
+.btn-menu:hover{
+    border-color: white !important;
+}
+.up-icon{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: black;
+	bottom: 40px;
+	right: 30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+.bi-triangle-fill{font-size: 25px;line-height: 50px;}
