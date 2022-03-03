@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+}
+.tombol{
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    margin-right: 10px;
+    border: 3px white solid;
+}
+
+.garis{
+    width: 55%;
+    color: black !important;
+    border: 1px black solid;
+}
+.svg1{
+    width:50%;
+    height: 300px;
+    margin-bottom: -40px !important;
+    margin-top: -100px !important;
+}
+.svg2{
+    width:90%;
+    height: 300px;
+    margin-bottom: 5px !important;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.btn-hidden{
+    visibility: hidden !important;
+}
+.no-border{
+    border-style: hidden;
+    margin-top: 5px;
+}
+.side{
+    height: 100%;
+    margin-top: 20px;
+    margin-left: -12px;
+}
+.list-group-item{
+    border-style: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .install{
+        margin-top: -80px !important;
+    }
+    .tombol{
+        width: 150px;
+        height: 50px;
+        padding-top: 10px;
+        margin-right: 10px;
+        border: 3px white solid;
+    }
+    .svg1{
+        width:90%;
+        height: 350px;
+        margin-bottom: 25px !important;
+        margin-top: -100px !important;
+    }
+    .svg2{
+        width:90%;
+        height: 300px;
+        margin-bottom: 5px !important;
+    }
+    .judul{
+        font-size: 23pt
+    }
+    .slogan{
+        font-size: 20pt
+    }
+    .garis{
+        width: 50%;
+        color: black !important;
+        border: 1px black solid;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+    .partner{
+        margin-left: -100px !important;
+    }
+    .btn-hidden{
+        visibility: visible !important;
+    }
+    .list-group-item{
+        border-style: none !important;
+    }
+    .list-group-item{
+        border-style: none !important;
+        width: 50%;
+    }
+    .tab-content{
+        margin-left: -130px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .svg1{
+        width:90%;
+        height: 300px;
+        margin-bottom: 25px !important;
+        margin-top: -10px !important;
+    }
+    .svg2{
+        width:90%;
+        height: 300px;
+        margin-bottom: 5px !important;
+    }
+    .partner{
+        margin-left: -100px !important;
+    }
+    .list-group-item{
+        border-style: none !important;
+        width: 50%;
+    }
+    .tab-content{
+        margin-left: -130px;
+    }
+}
+@media (min-width: 1200px) {
+    .svg1{
+        width:90%;
+        height: 300px;
+        margin-bottom: 25px !important;
+        margin-top: 10px !important;
+    }
+    .partner{
+        margin-left: -100px !important;
+    }
+    .side{
+        height: 100%;
+        margin-top: 20px;
+        margin-left: -12px;
+    }
+    .list-group-item{
+        border-style: none !important;
+        width: 50%;
+    }
+    .tab-content{
+        margin-left: -220px;
+    }
+}
