@@ -10,11 +10,9 @@
 .judul-brand{font-family: 'Lobster', cursive;}
 
 body {
-        width: 100%;
         text-decoration: none;
         overflow-x: hidden !important;
         color: black !important;
-        width: 100%;
      }
     .tombol-home{
         margin-top : 15px !important;
