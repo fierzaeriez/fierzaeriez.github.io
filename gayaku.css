@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 .login{
             position: absolute;
@@ -13,6 +14,7 @@ body {
         text-decoration: none;
         overflow-x: hidden !important;
         color: black !important;
+        font-family: 'Arvo', serif;
      }
     .tombol-home{
         margin-top : 15px !important;
@@ -153,6 +155,7 @@ body {
             overflow-x: hidden;
             color: #fff;
             width: 100%;
+            font-family: 'Arvo', serif;
         }
         .tombol-home{
             margin-top : 15px !important;
@@ -233,6 +236,7 @@ body {
             overflow-x: hidden !important;
             text-decoration: none;
             width: 100%;
+            font-family: 'Arvo', serif;
         }
         .tombol-home{
             margin-top : 15px !important;
