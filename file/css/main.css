@@ -1,0 +1,95 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.judul-brand{
+    margin-top: 150px;
+}
+.slogan{
+    margin-top: -30px;
+}
+.card-slogan{
+    margin-top: -85px !important;
+}
+.bg-bottle-green{
+    background-color: #006A4E;
+}
+.navbar-bulet{
+    width: 95% !important;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 10px;
+    z-index: 1;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.offcanvas{
+    width: 100%;
+}
+.bg-utama{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    margin-top: -74px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-color: gray;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.tombol {
+    margin-top: -20px;
+}
+
+@media (min-width: 992px) {
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .card-slogan{
+            margin-top: -35px !important;
+            
+        }
+        .bg-bottle-green {
+            background-color: #006A4E;
+        }
+        .offcanvas{
+            width: 25%;
+        }
+    
+        .navbar-bulet {
+            width: 90% !important;
+            margin: 0 auto;
+            position: absolute;
+            border-radius: 15px;
+            margin-top: 10px;
+            z-index: 1;
+            box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+        }
+        .bg-utama{
+            position: absolute;
+            width: 100%;
+            height: 600px;
+            margin-top: -74px;
+            background-image: url('../img/bg.jpg');
+            background-size: cover;
+            background-color: gray;
+            background-attachment: fixed;
+            background-blend-mode: multiply;
+            background-repeat: no-repeat;
+        }
+        .tombol{
+            margin-top: -20px;
+        }
+}
